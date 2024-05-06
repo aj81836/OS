@@ -1,0 +1,195 @@
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ man
+What manual page do you want?
+For example, try 'man man'.
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ man man
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ uname
+Linux
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ pwd
+/home/sunbeam/Desktop
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ hostnmae
+Command 'hostnmae' not found, did you mean:
+  command 'hostname' from deb hostname (3.23ubuntu2)
+Try: sudo apt install <deb name>
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ hostname
+sunbeam-Vostro-3446
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ date
+Friday 03 May 2024 03:40:38 PM IST
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cal
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cal
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ is
+Command 'is' not found, but can be installed with:
+sudo apt install ironseed
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ ls
+ C-assignment   gitdata     iot         'personal c-lang'      'VS code'
+ daywork        HACKATHON   labExamIOT  'Untitled Document 1'
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ sudo apt install ncal
+[sudo] password for sunbeam: 
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libflashrom1 libftdi1-2 libllvm13 libpcre2-32-0
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  ncal
+0 upgraded, 1 newly installed, 0 to remove and 54 not upgraded.
+Need to get 20.2 kB of archives.
+After this operation, 69.6 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy/universe amd64 ncal amd64 12.1.7+nmu3ubuntu2 [20.2 kB]
+Fetched 20.2 kB in 1s (21.6 kB/s)                     
+Selecting previously unselected package ncal.
+(Reading database ... 259929 files and directories currently installed.)
+Preparing to unpack .../ncal_12.1.7+nmu3ubuntu2_amd64.deb ...
+Unpacking ncal (12.1.7+nmu3ubuntu2) ...
+Setting up ncal (12.1.7+nmu3ubuntu2) ...
+Processing triggers for man-db (2.10.2-1) ...
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cal
+      May 2024        
+Su Mo Tu We Th Fr Sa  
+          1  2  3  4  
+ 5  6  7  8  9 10 11  
+12 13 14 15 16 17 18  
+19 20 21 22 23 24 25  
+26 27 28 29 30 31     
+                      
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ dir
+C-assignment  gitdata	 iot	     personal\ c-lang	    VS\ code
+daywork       HACKATHON  labExamIOT  Untitled\ Document\ 1
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat >new file.text
+cat: file.text: No such file or directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat > new file.text
+cat: file.text: No such file or directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat > newfile.text
+welcome to sunbeam
+sunbeam pune
+^Z
+[1]+  Stopped                 cat > newfile.text
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ ls
+ C-assignment   HACKATHON    new               'Untitled Document 1'
+ daywork        iot          newfile.text      'VS code'
+ gitdata        labExamIOT  'personal c-lang'
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat >>newfile.text
+sunbeam desd
+come to sunbeam
+^Z
+[2]+  Stopped                 cat >> newfile.text
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ ls
+ C-assignment   HACKATHON    new               'Untitled Document 1'
+ daywork        iot          newfile.text      'VS code'
+ gitdata        labExamIOT  'personal c-lang'
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat newfile.text
+welcome to sunbeam
+sunbeam pune
+sunbeam desd
+come to sunbeam
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cp nefile.text 
+cp: missing destination file operand after 'nefile.text'
+Try 'cp --help' for more information.
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ mkdir file2
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cp newfile.text file2
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat file2
+cat: file2: Is a directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat >  file2
+bash: file2: Is a directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat >>file2.text
+
+^Z
+[3]+  Stopped                 cat >> file2.text
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat >>file2.text
+^Z
+[4]+  Stopped                 cat >> file2.text
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cat file2
+cat: file2: Is a directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd file2
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cat newfile.text
+welcome to sunbeam
+sunbeam pune
+sunbeam desd
+come to sunbeam
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ .
+bash: .: filename argument required
+.: usage: . filename [arguments]
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ .cd
+Command '.cd' not found, did you mean:
+  command 'hcd' from deb hfsutils (3.2.6-15build2)
+  command 'mcd' from deb mtools (4.0.33-1+really4.0.32-1build1)
+  command 'bcd' from deb bsdgames (2.17-29)
+Try: sudo apt install <deb name>
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cd .
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd iot
+sunbeam@sunbeam-Vostro-3446:~/Desktop/iot$ ls
+'IOT OSI layer'   OSI-7-layers.jpg.webp   src-codes
+sunbeam@sunbeam-Vostro-3446:~/Desktop/iot$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ mv file1 file2
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd file2
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ mv file1 desktop
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ 
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ mv desktop Desktop
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ ls
+ C-assignment   gitdata     labExamIOT            'VS code'
+ daywork        HACKATHON  'personal c-lang'
+ file2          iot        'Untitled Document 1'
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd file2
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp Desktop Desktop
+cp: -r not specified; omitting directory 'Desktop'
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp Desktop 'Desktop'
+cp: -r not specified; omitting directory 'Desktop'
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp -r Desktop Desktop
+cp: cannot copy a directory, 'Desktop', into itself, 'Desktop/Desktop'
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp -r Desktop 'Desktop'
+cp: cannot copy a directory, 'Desktop', into itself, 'Desktop/Desktop'
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp -r 'Desktop/Desktop'
+cp: missing destination file operand after 'Desktop/Desktop'
+Try 'cp --help' for more information.
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp -r Desktop/Desktop
+cp: missing destination file operand after 'Desktop/Desktop'
+Try 'cp --help' for more information.
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp Desktop/Desktop
+cp: missing destination file operand after 'Desktop/Desktop'
+Try 'cp --help' for more information.
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ mkdir file1
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ rm -r file1
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ mkdir file1
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd file2
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp Desktop file1
+cp: -r not specified; omitting directory 'Desktop'
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp Desktop ~ file1
+cp: target 'file1' is not a directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp newfile.text 
+cp: missing destination file operand after 'newfile.text'
+Try 'cp --help' for more information.
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp newfile.text file1
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp newfile.text ~ file1
+cp: target 'file1' is not a directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cd .
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd file1
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file1$ mkdir one two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file1$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd file2
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ ls
+Desktop  newfile.text
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ rmdir Desktop
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ ls
+newfile.text
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ mkdir three four
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ ls
+four  newfile.text  three
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp file2 file1
+cp: cannot stat 'file2': No such file or directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp three file1
+cp: -r not specified; omitting directory 'three'
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ ls
+four  newfile.text  three
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ cp -r three file1
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file2$ ls
+file1  four  newfile.text  three
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd file1
+sunbeam@sunbeam-Vostro-3446:~/Desktop/file1$ touch one two three four five

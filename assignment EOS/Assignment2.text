@@ -1,0 +1,224 @@
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ ls
+ C-assignment   daywork   HACKATHON   labExamIOT        'Untitled Document 1'
+ data           gitdata   iot        'personal c-lang'  'VS code'
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ ls -ltr
+total 40
+drwxrwxr-x  2 sunbeam sunbeam 4096 Mar 14 23:45 'personal c-lang'
+-rw-rw-r--  1 sunbeam sunbeam  466 Mar 27 18:13 'Untitled Document 1'
+drwxrwxr-x  7 sunbeam sunbeam 4096 Apr 17 03:46  HACKATHON
+drwxrwxr-x  5 sunbeam sunbeam 4096 Apr 22 22:47  daywork
+drwxrwxr-x  9 sunbeam sunbeam 4096 Apr 22 23:21  C-assignment
+drwxrwxr-x  3 sunbeam sunbeam 4096 May  1 15:03  iot
+drwxrwxr-x 12 sunbeam sunbeam 4096 May  2 18:21 'VS code'
+drwxrwxr-x  4 sunbeam sunbeam 4096 May  2 20:41  labExamIOT
+drwxrwxr-x  8 sunbeam sunbeam 4096 May  2 20:53  gitdata
+drwxrwxr-x  3 sunbeam sunbeam 4096 May  3 22:11  data
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ 
+sunbeam@sunbeam-Vostro-3446:~$ ls -ltr
+total 76
+-rwxrwxr-x  1 sunbeam sunbeam 15960 Mar  6 16:53  main.out
+drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  7 00:55  Videos
+drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  7 00:55  Templates
+drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  7 00:55  Public
+drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  7 00:55  Music
+-rw-rw-r--  1 sunbeam sunbeam     5 Mar 20 17:10 'Untitled Document 1'
+drwxrwxr-x  3 sunbeam sunbeam  4096 Mar 27 16:05  STM32CubeIDE
+drwxrwxr-x  3 sunbeam sunbeam  4096 Mar 27 16:23  STM32Cube
+drwxr-xr-x  2 sunbeam sunbeam  4096 Apr 13 21:21  Documents
+drwxr-xr-x  4 sunbeam sunbeam  4096 Apr 16 05:14  Pictures
+drwx------  6 sunbeam sunbeam  4096 Apr 16 09:34  snap
+drwxrwxr-x 13 sunbeam sunbeam  4096 Apr 25 11:51  Arduino
+drwxrwxr-x  3 sunbeam sunbeam  4096 Apr 26 14:42 'notebook py'
+drwxr-xr-x  4 sunbeam sunbeam  4096 May  3 22:10  Downloads
+drwxr-xr-x 12 sunbeam sunbeam  4096 May  4 23:20  Desktop
+-rw-rw-r--  1 sunbeam sunbeam    74 May  4 23:21  main.c
+
+
+Q2:
+sunbeam@sunbeam-Vostro-3446:~$ du -sh -- */ | sort -h
+4.0K	Music/
+4.0K	Public/
+4.0K	Templates/
+4.0K	Videos/
+8.0K	Documents/
+16K	notebook py/
+64K	STM32Cube/
+100K	Arduino/
+25M	Pictures/
+157M	STM32CubeIDE/
+712M	Downloads/
+1.5G	snap/
+4.1G	Desktop/
+show Desktop file size wise:
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ du -sh -- *|sort -h
+4.0K	Untitled Document 1
+156K	labExamIOT
+4.2M	personal c-lang
+4.3M	daywork
+15M	HACKATHON
+20M	VS code
+71M	iot
+130M	data
+140M	C-assignment
+3.7G	gitdata
+
+Q3:
+sunbeam@sunbeam-Vostro-3446:~$ ls -li 
+total 76
+1857585 drwxrwxr-x 13 sunbeam sunbeam  4096 Apr 25 11:51  Arduino
+1572936 drwxr-xr-x 12 sunbeam sunbeam  4096 May  4 23:20  Desktop
+1572940 drwxr-xr-x  2 sunbeam sunbeam  4096 Apr 13 21:21  Documents
+1572937 drwxr-xr-x  4 sunbeam sunbeam  4096 May  3 22:10  Downloads
+1599842 -rw-rw-r--  1 sunbeam sunbeam    74 May  4 23:21  main.c
+1573036 -rwxrwxr-x  1 sunbeam sunbeam 15960 Mar  6 16:53  main.out
+1572941 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  7 00:55  Music
+1986223 drwxrwxr-x  3 sunbeam sunbeam  4096 Apr 26 14:42 'notebook py'
+1572942 drwxr-xr-x  4 sunbeam sunbeam  4096 Apr 16 05:14  Pictures
+1572939 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  7 00:55  Public
+1572870 drwx------  6 sunbeam sunbeam  4096 Apr 16 09:34  snap
+1581918 drwxrwxr-x  3 sunbeam sunbeam  4096 Mar 27 16:23  STM32Cube
+1580770 drwxrwxr-x  3 sunbeam sunbeam  4096 Mar 27 16:05  STM32CubeIDE
+1572938 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  7 00:55  Templates
+1596579 -rw-rw-r--  1 sunbeam sunbeam     5 Mar 20 17:10 'Untitled Document 1'
+1572943 drwxr-xr-x  2 sunbeam sunbeam  4096 Mar  7 00:55  Videos
+
+Q4:
+sunbeam@sunbeam-Vostro-3446:~$ ls
+ Arduino     main.c         Pictures    STM32CubeIDE
+ Desktop     main.out       Public      Templates
+ Documents   Music          snap       'Untitled Document 1'
+ Downloads  'notebook py'   STM32Cube   Videos
+sunbeam@sunbeam-Vostro-3446:~$ 
+
+Q5:
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS$ cat > Sunbeam.txt
+sunbeam@sunbeam 
+Abhijit sunil jadhav  
+DESD ^Z
+[1]+  Stopped                 cat > Sunbeam.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS$ cat >> Sunbeam.txt
+Name:Abhijit
+Address:jamkhed
+^Z
+[2]+  Stopped                 cat >> Sunbeam.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS$ cat Sunbeam.txt
+sunbeam@sunbeam
+Abhijit sunil jadhav
+Name:Abhijit
+Address:jamkhed
+
+Q7:
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS$ mkdir one
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS$ cd one
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one$ touch 1.txt 11.txt 11.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one$ mkdir two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one$ cd two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two$ touch 2.txt 22.txt 222.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two$ mkdir three
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two$ cd three
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two/three$ touch 3.txt 33.txt 333.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two/three$ mkdir four
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two/three$ cd four
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two/three/four$ touch 4.txt 44.txt 444.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two/three/four$ mkdir five
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two/three/four$ touch 5.txt 55.txt 555.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/gitdata/OS/OS/one/two/three/four$ cd ~
+sunbeam@sunbeam-Vostro-3446:~$ 
+
+Q8:
+
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ mkdir five
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd five
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ mkdir four
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ vd four
+Command 'vd' not found, but can be installed with:
+sudo apt install visidata
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd four
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/four$ car > 44.txt
+Command 'car' not found, but can be installed with:
+sudo apt install ucommon-utils
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/four$ cat > 44.txt
+Abhijit sunil Jadhav
+^C
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/four$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cat > 555.txt
+asdfghjkqwertyuizxcvbnm^C
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ rm -r 555.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ touch one two three four five
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd one
+bash: cd: one: Not a directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ mkdir one two three 
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd three
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/three$ cat > 3.txt
+sunbeam
+DESD                   
+^C
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/three$ cat 3.txt
+sunbeam
+DESD
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/three$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ ls
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ cat > 1.txt
+^C
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ cat > 2.txt
+^C
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ ls
+1.txt  2.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ ls
+four  one  three  two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd four
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/four$ ls
+44.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/four$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ cat > 222.txt
+agdcdcdsbcdwcbcdwcuidw
+dcbhwdcubdk
+sdcbdubcwd
+cdsndhuh
+^C
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ ls
+1.txt  222.txt  2.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ rm -r 222.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ ls
+1.txt  2.txt
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/two$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ 
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd one
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/one$ ls
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five/one$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd five
+bash: cd: five: No such file or directory
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ mkdir five 
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ ls
+five  four  one  three  two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ rmkdir five
+Command 'rmkdir' not found, did you mean:
+  command 'rmdir' from deb coreutils (8.32-4.1ubuntu1)
+  command 'hmkdir' from deb hfsutils (3.2.6-15build2)
+  command 'mkdir' from deb coreutils (8.32-4.1ubuntu1)
+  command 'mmkdir' from deb mblaze (1.1-1)
+Try: sudo apt install <deb name>
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ rm -r five
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ ls
+four  one  three  two
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ rm -r four
+sunbeam@sunbeam-Vostro-3446:~/Desktop/five$ cd ..
+sunbeam@sunbeam-Vostro-3446:~/Desktop$ cd ..
+sunbeam@sunbeam-Vostro-3446:~$ ls
+ Arduino     main.c         Pictures    STM32CubeIDE
+ Desktop     main.out       Public      Templates
+ Documents   Music          snap       'Untitled Document 1'
+ Downloads  'notebook py'   STM32Cube   Videos
+sunbeam@sunbeam-Vostro-3446:~$ cd Downloads
+sunbeam@sunbeam-Vostro-3446:~/Downloads$ 
+
+Q9:
+
+
+
+
